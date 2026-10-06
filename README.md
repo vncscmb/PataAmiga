@@ -1,4 +1,4 @@
-# [Nome do Projeto]
+# [Pata Amiga]
 
 > Substitua os trechos entre colchetes `[ ]` pelas informações reais do trabalho. Remova esta nota e as demais orientações em *itálico* antes da entrega.
 
@@ -6,12 +6,12 @@
 [![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
 [![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
 
-**Instituição:** [Nome da instituição]  
-**Curso:** [Nome do curso]  
-**Disciplina:** [Nome da disciplina]  
-**Turma / Semestre:** [Ex.: 2026.2]  
-**Professor(a):** [Nome completo]  
-**Status do projeto:** [Protótipo / MVP / Em desenvolvimento / Concluído]
+**Instituição:** Centro de Ensino Universitário de Brasília
+**Curso:** Ciência da Computação  
+**Disciplina:** Desenvolvimento Web  
+**Turma / Semestre:** 2026.2
+**Professor(a):** Felippe Pires Ferreira
+**Status do projeto:** Em desenvolvimento]
 
 ---
 
@@ -36,8 +36,11 @@
 ---
 
 ## 1. Descrição do projeto
-
 *Apresente o contexto, o problema e a solução proposta. Use linguagem objetiva (dois a quatro parágrafos).*
+
+Muitos abrigos e associações de proteção animal enfrentam dificuldades em divulgar de forma organizada os animais disponíveis, dependendo muitas vezes de redes sociais que dispersam a informação. Isto dificulta a pesquisa por parte de potenciais adotantes e atrasa o processo de adoção. 
+
+O **Pata Amiga** é uma plataforma web centralizada que conecta abrigos a famílias adotantes, simplificando a pesquisa, a triagem e a gestão dos perfis dos animais. O sistema conta com uma interface de gestão para as instituições e uma página pública de pesquisa rica em dados comportamentais.
 
 [Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.]
 
@@ -45,38 +48,39 @@
 
 *Liste os objetivos gerais e específicos do projeto.*
 
-- **Objetivo geral:** [Ex.: desenvolver uma aplicação web para gerenciar reservas de laboratórios.]
+### Objetivos
+
+- **Objetivo geral:** Desenvolver uma aplicação web em Python e Django para centralizar a gestão e divulgação de animais disponíveis para adoção.
 - **Objetivos específicos:**
-  - [Ex.: permitir cadastro e autenticação de usuários.]
-  - [Ex.: registrar e consultar reservas por data e laboratório.]
-  - [Ex.: gerar relatórios de ocupação.]
+  - Permitir o cadastro seguro de abrigos e o gerenciamento (CRUD) de perfis de animais.
+  - Disponibilizar uma busca pública de animais com múltiplos filtros (espécie, porte, localização).
+  - Integrar automaticamente os perfis das raças puras com características comportamentais via The Dog/Cat API.
+  - Gerar relatórios de ocupação e histórico de adoções para os abrigos.
+  - Disponibilizar os dados públicos através de uma API REST própria.
 
 ### Público-alvo
 
-- [Ex.: estudantes da instituição]
-- [Ex.: professores responsáveis pelos laboratórios]
-- [Ex.: equipe administrativa]
+- **Gestores de Abrigos / Protetores Independentes:** Responsáveis por registar, gerir e atualizar o estado dos animais.
+- **Adotantes (Público em Geral):** Pessoas à procura de um animal de estimação que utilizam a plataforma para pesquisar perfis e submeter pedidos de adoção.
 
 ---
 
 ## 2. Funcionalidades
 
-*Liste as funções implementadas (ou previstas) no sistema. Marque o status de cada uma.*
-
 | Funcionalidade | Descrição | Status |
 | --- | --- | --- |
-| [Ex.: Autenticação] | [Ex.: login, logout e recuperação de senha] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Cadastro de usuários] | [Ex.: criação e edição de perfis] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Relatórios] | [Ex.: exportação em PDF] | [Implementada / Em andamento / Planejada] |
+| Autenticação e Perfis | Login seguro e gestão do perfil do Abrigo | Planejada (Fase 2) |
+| Cadastro de Animais (CRUD) | Criação e gestão de perfis de animais disponíveis | Planejada (Fase 2) |
+| Busca Pública de Animais | Filtros por espécie, porte, idade e localização | Planejada (Fase 2) |
+| Relatórios de Gestão | Exportação em PDF do histórico e animais aguardando adoção | Planejada (Fase 2) |
+| Integração The Dog/Cat API | Autopreenchimento de características de raça e tratamento para SRD | Planejada (Fase 2) |
+| API REST Pata Amiga | Disponibilização de dados públicos via endpoints em JSON | Planejada (Fase 2) |
 
 ### Requisitos não funcionais
 
-*Informe restrições de qualidade, quando existirem.*
-
-- **Desempenho:** [Ex.: respostas da API em menos de 2 segundos]
-- **Segurança:** [Ex.: senhas armazenadas com hash; HTTPS em produção]
-- **Usabilidade:** [Ex.: interface responsiva para desktop e celular]
-- **Disponibilidade:** [Ex.: uso em ambiente local / laboratório da disciplina]
+- **Segurança:** Senhas protegidas, variáveis sensíveis em `.env` e acesso por HTTPS em produção. Avaliação via testes SAST/DAST.
+- **Integração:** Tratamento de indisponibilidade e timeouts na comunicação com a API externa.
+- **Usabilidade:** Interface responsiva para acesso via dispositivos móveis (Mobile First).
 
 ---
 
@@ -101,15 +105,16 @@
 
 | Camada | Tecnologia | Versão |
 | --- | --- | --- |
-| Linguagem | [Ex.: Python, Java, TypeScript] | [Ex.: 3.12] |
-| Frontend | [Ex.: HTML, CSS, React] | [Ex.: 18] |
-| Backend | [Ex.: Flask, Spring Boot, Node.js] | [Ex.: 3.x] |
-| Banco de dados | [Ex.: PostgreSQL, SQLite, MongoDB] | [Ex.: 16] |
-| Testes | [Ex.: pytest, JUnit, Jest] | [Ex.: 8] |
-| Infraestrutura | [Ex.: Docker, GitHub Actions] | — |
-| Outras ferramentas | [Ex.: Git, Figma, Postman] | — |
+| Linguagem | Python | 3.12+ |
+| Backend e Frontend | Django (Arquitetura MVT) | 5.x |
+| API Própria | Django REST Framework (DRF) | 3.x |
+| Banco de dados | PostgreSQL / SQLite (Local) | - |
+| Estilização | HTML5, CSS3, Bootstrap/Tailwind | - |
+| Análise de Segurança | Bandit (SAST) / OWASP ZAP (DAST) | - |
+| Outras ferramentas | Git, GitHub, Draw.io (Diagramas), Figma (Protótipos) | - |
 
 ---
+
 
 ## 5. Arquitetura
 
@@ -123,8 +128,9 @@
 
 **Decisões relevantes:**
 
-- [Ex.: uso de API REST para separar cliente e servidor.]
-- [Ex.: persistência relacional porque os dados possuem relacionamentos bem definidos.]
+- Uso do Django pela robustez e segurança no CRUD de informações.
+- Integração da "The Dog/Cat API" no momento do cadastro do animal, utilizando lógica condicional para animais "Sem Raça Definida" (SRD), o que poupa requisições desnecessárias.
+- Implementação de API REST própria para expor a lista pública de animais disponíveis para adoção, favorecendo parcerias externas futuras.
 
 ### Endpoints principais (quando houver API)
 
@@ -181,12 +187,10 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 ## 7. Participantes
 
-*Informe nome completo, função no grupo e, se houver, o identificador acadêmico (matrícula).*
-
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| [Nome completo] | [000000] | [Ex.: coordenação / backend / frontend / testes / documentação] |
-| [Nome completo] | [000000] | [Ex.: backend] |
+| Vinicius Coelho de Matos Batista | [22508555] | [Ex.: coordenação / backend / frontend / testes / documentação] |
+| Victor Hugo Cândido Feitoza Albuquerque Santos  | [22507444] | [Ex.: backend] |
 | [Nome completo] | [000000] | [Ex.: frontend] |
 | [Nome completo] | [000000] | [Ex.: testes e documentação] |
 
