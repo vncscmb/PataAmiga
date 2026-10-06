@@ -7,10 +7,15 @@
 [![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
 
 **Instituição:** Centro de Ensino Universitário de Brasília
+
 **Curso:** Ciência da Computação  
+
 **Disciplina:** Desenvolvimento Web  
+
 **Turma / Semestre:** 2026.2
+
 **Professor(a):** Felippe Pires Ferreira
+
 **Status do projeto:** Em desenvolvimento]
 
 ---
