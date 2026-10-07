@@ -186,10 +186,10 @@ A especificação da paleta de cores (Azul Oceano e Verde Saúde), tipografia e 
 
 | Nome | Matrícula | Função no projeto |
 | --- | --- | --- |
-| Vinicius Coelho de Matos Batista | [22508555] | [ coordenação / backend / frontend / testes / documentação] |
-| Victor Hugo Cândido Feitoza Albuquerque Santos  | [22507444] | [Ex.: backend] |
-| João Paulo Costa Sales | 22503901 | [frontend, documentação, backend, ] |
-| Matheus Lopes Cundari | [000000] | [Ex.: testes e documentação] |
+| Vinicius Coelho de Matos Batista | 22508555 |  coordenação / backend / frontend / testes / documentação |
+| Victor Hugo Cândido Feitoza Albuquerque Santos  | 22507444 | Ex.: backend |
+| João Paulo Costa Sales | 22503901 | frontend, documentação, backend,  |
+| Matheus Lopes Cundari | 000000 | Ex.: testes e documentação |
 
 **Professor(a) responsável:** Felippe Pires Ferreira
 
