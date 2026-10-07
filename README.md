@@ -154,19 +154,19 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 ## 6. Organização dos diretórios
 
 ### 6.1. Casos de Uso
-O diagrama de casos de uso com os fluxos principais da aplicação (cadastro de abrigos, consulta de animais e submissão de candidaturas) encontra-se disponível na pasta [`documentos/casos-de-uso/`](documentos/casos-de-uso/).
+O diagrama de casos de uso com os fluxos principais da aplicação (cadastro de abrigos, consulta de animais e submissão de candidaturas) encontra-se disponível na pasta [`docs/casos-de-uso/`](docs/casos-de-uso/).
 
 ### 6.2. Planejamento e Backlog
-A relação de tarefas técnicas e o planejamento para a Fase 2 (desenvolvimento em Django, ORM e APIs) estão detalhados em [`documentos/planejamento/backlog.md`](documentos/planejamento/backlog.md).
+A relação de tarefas técnicas e o planejamento para a Fase 2 (desenvolvimento em Django, ORM e APIs) estão detalhados em [`docs/planejamento/backlog.md`](docs/planejamento/backlog.md).
 
 ### 6.3. Protótipos e Identidade Visual
-A especificação da paleta de cores (Azul Oceano e Verde Saúde), tipografia e a estrutura dos ecrãs principais mapeados no Figma estão documentadas em [`documentos/prototipos/README.md`](documentos/prototipos/README.md).
+A especificação da paleta de cores (Azul Oceano e Verde Saúde), tipografia e a estrutura dos ecrãs principais mapeados no Figma estão documentadas em [`docs/prototipos/README.md`](docs/prototipos/README.md).
 
 ```text
 .
 ├── README.md                 # Documentação principal do projeto
 ├── .env.example              # Modelo de variáveis de ambiente
-├── documentos/               # Artefatos técnicos e documentação da Fase 1
+├── docs/               # Artefatos técnicos e documentação da Fase 1
 │   ├── casos-de-uso/         # Diagrama e especificações de casos de uso
 │   ├── planejamento/         # Backlog e planejamento da Fase 2
 │   └── prototipos/          # Identidade visual e especificações do Figma
@@ -178,7 +178,7 @@ A especificação da paleta de cores (Azul Oceano e Verde Saúde), tipografia e 
 | --- | --- |
 | `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
 | `.env.example` | Modelo de variáveis de ambiente sem credenciais reais |
-| `documentos/` | Artefatos técnicos, casos de uso, planejamento e protótipos da Fase 1 |
+| `docs/` | Artefatos técnicos, casos de uso, planejamento e protótipos da Fase 1 |
 | `images/` | Imagens e ativos gráficos da documentação |
 | `src/` | Código-fonte da aplicação (Django / Back-end e Front-end) |
 
@@ -259,7 +259,7 @@ python manage.py test
 | --- | --- | --- |
 | Unitários | unittest / Django Test Framework | Regras de negócio isoladas, validações de modelos e formulários|
 | Integração |Django REST Framework APIClient | Endpoints da API, rotas de visualização e persistência no banco de dados |
-| Manuais | Checklist interno em documentos/ | Fluxos principais da interface e navegação do usuário |
+| Manuais | Checklist interno em docs/ | Fluxos principais da interface e navegação do usuário |
 
 **Cobertura atual:** [Ex.: 70% / não medida]
 
@@ -347,9 +347,9 @@ Este material destina-se a fins educacionais no âmbito da disciplina.
 
 ### Documentação complementar
 
-- Casos de uso: [`documentos/casos-de-uso/`](documentos/casos-de-uso/)
-- Planejamento e backlog: [`documentos/planejamento/backlog.md`](documentos/planejamento/backlog.md)
-- Protótipos e identidade visual: [`documentos/prototipos/README.md`](documentos/prototipos/README.md)
+- Casos de uso: [`docs/casos-de-uso/`](docs/casos-de-uso/)
+- Planejamento e backlog: [`docs/planejamento/backlog.md`](docs/planejamento/backlog.md)
+- Protótipos e identidade visual: [`docs/prototipos/README.md`](docs/prototipos/README.md)
 
 ### Referências
 
