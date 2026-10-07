@@ -150,30 +150,34 @@ O **Pata Amiga** é uma plataforma web centralizada que conecta abrigos a famíl
 Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 
 ---
+## 6. Organização dos diretórios e documentação
 
-## 6. Organização dos diretórios
+Toda a documentação técnica da Fase 1 está organizada dentro da pasta [`docs/`](docs/):
 
-### 6.1. Casos de Uso
-O diagrama de casos de uso com os fluxos principais da aplicação (cadastro de abrigos, consulta de animais e submissão de candidaturas) encontra-se disponível na pasta [`docs/casos-de-uso/`](docs/casos-de-uso/).
-
-### 6.2. Planejamento e Backlog
-A relação de tarefas técnicas e o planejamento para a Fase 2 (desenvolvimento em Django, ORM e APIs) estão detalhados em [`docs/planejamento/backlog.md`](docs/planejamento/backlog.md).
-
-### 6.3. Protótipos e Identidade Visual
-A especificação da paleta de cores (Azul Oceano e Verde Saúde), tipografia e a estrutura dos ecrãs principais mapeados no Figma estão documentadas em [`docs/prototipos/README.md`](docs/prototipos/README.md).
+- 📄 **Visão do Projeto:** [`docs/visao/`](docs/visao/)
+- 🎯 **Casos de Uso:** [`docs/casos-de-uso/`](docs/casos-de-uso/)
+- 🏗️ **Arquitetura do Sistema:** [`docs/arquitetura/`](docs/arquitetura/)
+- 🗄️ **Modelo de Dados (ER):** [`docs/banco-de-dados/`](docs/banco-de-dados/)
+- 🔌 **Contrato de API:** [`docs/api/`](docs/api/)
+- 🎨 **Protótipos e Identidade Visual:** [`docs/prototipos/`](docs/prototipos/)
+- 📅 **Planejamento e Backlog:** [`docs/planejamento/`](docs/planejamento/)
 
 ```text
 .
-├── README.md                 # Documentação principal do projeto
+├── README.md                 # Documentação principal do repositório
 ├── .env.example              # Modelo de variáveis de ambiente
-├── docs/               # Artefatos técnicos e documentação da Fase 1
-│   ├── casos-de-uso/         # Diagrama e especificações de casos de uso
-│   ├── planejamento/         # Backlog e planejamento da Fase 2
-│   └── prototipos/          # Identidade visual e especificações do Figma
-├── images/                   # Imagens e ativos gráficos da documentação
-└── src/                      # Código-fonte da aplicação (Django / Back-end e Front-end)
-
+├── docs/                     # Artefatos e documentação técnica da Fase 1
+│   ├── api/                  # Contrato inicial da API e integrações
+│   ├── arquitetura/          # Diagrama UML de arquitetura
+│   ├── banco-de-dados/       # Modelo de dados (ER) e dicionário
+│   ├── casos-de-uso/         # Diagrama UML e especificações de casos de uso
+│   ├── planejamento/         # Backlog e cronograma da Fase 2
+│   ├── prototipos/           # Identidade visual e protótipos Figma
+│   └── visao/                # Documento de Visão do Projeto
+├── images/                   # Imagens da documentação
+└── src/                      # Código-fonte da aplicação (Django)
 ```
+
 | Diretório / arquivo | Função |
 | --- | --- |
 | `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
