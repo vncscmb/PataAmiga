@@ -288,27 +288,29 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 ## 12. Contribuição e fluxo de trabalho
 
-### Branches
+### Branches do projeto
 
-- `main` — versão estável para avaliação
-- `feat/[nome]` — nova funcionalidade
-- `fix/[nome]` — correção de defeito
-- `docs/[nome]` — alterações de documentação
+- `main` — versão estável e pronta para entrega/avaliação
+- `feat/cadastro-abrigos` — implementação do módulo de abrigos
+- `feat/cadastro-animais` — implementação do catálogo e cadastro de animais
+- `feat/pedidos-adocao` — implementação do fluxo de pedidos de adoção
+- `fix/autenticacao` — correções em rotas e autenticação do sistema
+- `docs/atualizacao-readme` — alterações na documentação do repositório
 
-### Commits
+### Padrão de Commits
 
-Mensagens curtas e no imperativo:
+Mensagens curtas, diretas e no imperativo:
 
-- `feat: adiciona modelo de animais`
-- `fix: corrige validação de formulário`
-- `docs: atualiza instrucoes de execucao`
+- `feat: adiciona modelo de dados para animais`
+- `fix: corrige validacao do formulario de adocao`
+- `docs: atualiza instrucoes de execucao no readme`
 
-### Passos sugeridos
+### Passo a passo para contribuição
 
-1. Criar uma branch a partir de `main`.
-2. Implementar e testar localmente.
-3. Abrir um *pull request* / *merge request* para revisão do grupo.
-4. Só então integrar à branch principal.
+1. Criar uma nova branch a partir da `main`.
+2. Implementar as alterações e testar localmente.
+3. Subir a branch para o GitHub.
+4. Abrir um *Pull Request* para revisão e aprovação da equipe antes de integrar à `main`.
 
 **Issues e quadro de tarefas:** [link do GitHub Projects, Trello ou similar]
 
