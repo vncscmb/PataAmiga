@@ -251,7 +251,7 @@ python manage.py test
 | Integração |Django REST Framework APIClient | Endpoints da API, rotas de visualização e persistência no banco de dados |
 | Manuais | Checklist interno em docs/ | Fluxos principais da interface e navegação do usuário |
 
-**Cobertura atual:** [Ex.: 70% / não medida]
+**Cobertura atual:** não medida
 
 ---
 
