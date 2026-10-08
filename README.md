@@ -1,6 +1,5 @@
 # [Pata Amiga]
 
-> Substitua os trechos entre colchetes `[ ]` pelas informações reais do trabalho. Remova esta nota e as demais orientações em *itálico* antes da entrega.
 
 [![Status](https://img.shields.io/badge/status-[em_desenvolvimento]-yellow)]()
 [![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
@@ -46,7 +45,6 @@ Muitos abrigos e associações de proteção animal enfrentam dificuldades em di
 
 O **Pata Amiga** é uma plataforma web centralizada que conecta abrigos a famílias adotantes, simplificando a pesquisa, a triagem e a gestão dos perfis dos animais. O sistema conta com uma interface de gestão para as instituições e uma página pública de pesquisa rica em dados comportamentais.
 
-Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.
 
 ### Objetivos
 
@@ -86,8 +84,6 @@ Descreva o que o sistema faz, para quem ele se destina e qual problema ele resol
 
 ## 3. Demonstração
 
-*Inclua capturas de tela, GIF ou link para vídeo. Coloque as imagens em `images/`.*
-
 ![Tela principal](images/[screenshot-principal].png)
 
 | Tela | Descrição |
@@ -101,7 +97,6 @@ Descreva o que o sistema faz, para quem ele se destina e qual problema ele resol
 
 ## 4. Tecnologias utilizadas
 
-*Informe as tecnologias de fato usadas no projeto. Remova as linhas que não se aplicarem.*
 
 | Camada | Tecnologia | Versão |
 | --- | --- | --- |
@@ -117,10 +112,6 @@ Descreva o que o sistema faz, para quem ele se destina e qual problema ele resol
 
 
 ## 5. Arquitetura
-
-*Explique como o sistema está organizado: camadas, principais componentes e o fluxo entre eles. Inclua um diagrama no PDF de arquitetura ou de classes em `docs/` e descreva-o em texto.*
-
-[Ex.: a solução segue uma arquitetura em camadas (apresentação, aplicação, domínio e persistência). O frontend consome uma API REST. O backend aplica as regras de negócio e persiste os dados no banco.]
 
 ```text
 [Usuário] → [Interface / Frontend] → [API / Backend] → [Banco de dados]
