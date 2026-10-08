@@ -188,7 +188,7 @@ Toda a documentação técnica da Fase 1 está organizada dentro da pasta [`docs
 | Vinicius Coelho de Matos Batista | 22508555 |  coordenação / backend / frontend / testes / documentação |
 | Victor Hugo Cândido Feitoza Albuquerque Santos  | 22507444 | 	frontend, documentação, backend |
 | João Paulo Costa Sales | 22503901 | frontend, documentação, backend,  |
-| Matheus Lopes Cundari | 000000 | Ex.: testes e documentação |
+| Matheus Lopes Cundari | 22652438 | backend, frontend, testes  |
 
 **Professor(a) responsável:** Felippe Pires Ferreira
 
