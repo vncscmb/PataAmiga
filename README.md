@@ -41,17 +41,12 @@
 ---
 
 ## 1. Descrição do projeto
-*Apresente o contexto, o problema e a solução proposta. Use linguagem objetiva (dois a quatro parágrafos).*
 
 Muitos abrigos e associações de proteção animal enfrentam dificuldades em divulgar de forma organizada os animais disponíveis, dependendo muitas vezes de redes sociais que dispersam a informação. Isto dificulta a pesquisa por parte de potenciais adotantes e atrasa o processo de adoção. 
 
 O **Pata Amiga** é uma plataforma web centralizada que conecta abrigos a famílias adotantes, simplificando a pesquisa, a triagem e a gestão dos perfis dos animais. O sistema conta com uma interface de gestão para as instituições e uma página pública de pesquisa rica em dados comportamentais.
 
-[Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.]
-
-### Objetivos
-
-*Liste os objetivos gerais e específicos do projeto.*
+Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.
 
 ### Objetivos
 
@@ -155,7 +150,7 @@ Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
 Toda a documentação técnica da Fase 1 está organizada dentro da pasta [`docs/`](docs/):
 
 - 📄 **Visão do Projeto:** [`docs/visao/`](docs/visao/)
-- 🎯 **Casos de Uso:** [`docs/casos-de-uso/`](docs/casos-de-uso/)
+- 🎯 **Casos de Uso:** [`docs/casos-de-uso/`](docs/casos-de-uso/) *(Contém os diagramas UML `.vsdx`/`.pdf` e a [Especificação Textual](docs/casos-de-uso/especificacao-casos-de-uso.md))*
 - 🏗️ **Arquitetura do Sistema:** [`docs/arquitetura/`](docs/arquitetura/)
 - 🗄️ **Modelo de Dados (ER):** [`docs/banco-de-dados/`](docs/banco-de-dados/)
 - 🔌 **Contrato de API:** [`docs/api/`](docs/api/)
@@ -233,9 +228,9 @@ python manage.py runserver
 ```
 ### Implantação (quando houver)
 
-- **Ambiente:** [Ex.: Render, Railway, Vercel, servidor da instituição]
+- **Ambiente:** Ex.: Render, Railway, Vercel, servidor da instituição
 - **URL de produção:** [https://...]
-- **Observações:** [Ex.: é necessário configurar as variáveis de ambiente no painel do provedor]
+- **Observações:** Ex.: é necessário configurar as variáveis de ambiente no painel do provedor
 
 ---
 
@@ -324,7 +319,7 @@ Mensagens curtas, diretas e no imperativo:
 
 | Versão | Data | Descrição |
 | --- | --- | --- |
-| `0.1.0` | 2026-10-07 | Conclusão da Fase 1: Especificação de casos de uso, planeamento do backlog e protótipos de ecrãs |
+| `0.1.0` | 2026-10-07 | Conclusão da Fase 1: Especificação de casos de uso, planeamento do backlog, arquitetura e protótipos de ecrãs |
 | `0.0.1` | 2026-10-01 | Estrutura inicial do repositório e organização de pastas |
 ---
 
@@ -352,6 +347,7 @@ Este material destina-se a fins educacionais no âmbito da disciplina.
 ### Documentação complementar
 
 - Casos de uso: [`docs/casos-de-uso/`](docs/casos-de-uso/)
+- Especificação textual dos Casos de Uso: [`docs/casos-de-uso/especificacao-casos-de-uso.md`](docs/casos-de-uso/especificacao-casos-de-uso.md)
 - Planejamento e backlog: [`docs/planejamento/backlog.md`](docs/planejamento/backlog.md)
 - Protótipos e identidade visual: [`docs/prototipos/README.md`](docs/prototipos/README.md)
 
